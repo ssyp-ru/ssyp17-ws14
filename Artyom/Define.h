@@ -1,0 +1,17 @@
+#pragma once
+#define P1X	abs(sphere1->GetPX())
+#define P2X abs(sphere2->GetPX())
+#define P1Y	abs(sphere1->GetPY())
+#define P2Y abs(sphere2->GetPY())
+#define MASS1 sphere1 -> GetMass()
+#define MASS2 sphere2 -> GetMass()
+#define X1 sphere1 -> GetX()
+#define X2 sphere2 -> GetX()
+#define Y1 sphere1 -> GetY()
+#define Y2 sphere2 -> GetY()
+#define V1X sphere1 -> GetSpdX()
+#define V2X	sphere2 -> GetSpdX()
+#define V1Y sphere1 -> GetSpdY()
+#define V2Y sphere2 -> GetSpdY()
+#define ANGLE ki->GetAngle()/180*Pi
+#define POWER ki->GetPower()
